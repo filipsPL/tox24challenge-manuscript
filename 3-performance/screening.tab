@@ -1,0 +1,33 @@
+type	ML package	ML method	descriptors	short_name	comments	Testing	Leaderboard
+automatic	H2O	The best #1	full set	H2O Auto (long) (model #1) | full	Stacked Ensemble of the best models	23.046279	9.07
+automatic	H2O	The best #2	full set	H2O Auto (long) (model #7) | full	Stacked Ensemble of the best models	22.588277	9.05
+automatic	FLAML	The best	full set	FLAML Auto (long) | full	LGBMRegressor	22.5405	8.04
+automatic	MLJAR	The best	full set	MLJAR Auto (fast) | full	Ensemble Stacked	23.063	14.3
+automatic	MLJAR	The best	full set	MLJAR Auto (long) | full	Ensemble Stacked	22.2838	11.1
+individual	H2O	Deep Learning	full set	H2O: Deep Learning | full	200x200	25.169163	15.08
+individual	H2O	xgboost	full set	H2O: XGBoost | full	Auto parameters tuning	22.985964	12
+individual	Scikit-learn	catboost	full set	CatBoost | full	-	22.906	7.08
+individual	Scikit-learn	xgboost	full set	XGBoost | full	-	22.3479	9.05
+individual	Scikit-learn	xgboost	selected by optuna	XGBoost | sel	-	22.4246	8.03
+individual	Scikit-learn	catboost	selected by optuna	CatBoost | sel	-	22.5317	10.04
+consensus	Scikit-learn	catboost+xgboost	selected by optuna	CatBoost+XGBoost | sel	-	22.2651	8
+individual	Scikit-learn	xgboost	selected by optuna	XGBoost | selected + weak sup	weak supervised	22.3732	9
+individual	Scikit-learn	catboost	selected by optuna	CatBoost | selected + weak sup	weak supervised	22.4845	9.08
+consensus	Scikit-learn	catboost+xgboost	selected by optuna	CatBoost+XGBoost | selected + weak sup	weak supervised	22.1603	9.02
+individual	Scikit-learn	-	full set	SVR RBF | full	-	33.7794	
+individual	Scikit-learn	-	full set	kNN k=10 | full	-	31.5434	
+individual	Scikit-learn	-	full set	kNN k=5 | full	-	32.6654	
+individual	Scikit-learn	-	full set	Random Forest | full	-	23.809	
+individual	Scikit-learn	-	full set	Lasso | full	-	24.9062	
+individual	Scikit-learn	-	full set	ElasticNet | full	-	25.0446	
+individual	Scikit-learn	-	full set	GradientBoosting | full	-	23.2498	
+individual	Scikit-learn	-	full set	DecisionTree | full	-	33.6121	
+individual	Scikit-learn	-	full set	SVR linear | full	-	29.6685	
+individual	Scikit-learn	-	full set	Ridge | full	-	30.0146	
+optuml	optuml	-	full set	MLP (optuml) | full	-	25.9164	
+optuml	optuml	-	full set	AdaBoost (optuml) | full	-	26.406	
+optuml	optuml	-	full set	kNN (optuml) | full	-	28.2399	
+optuml	optuml	-	full set	RandomForest (optuml) | full	-	24.0168	
+optuml	optuml	-	full set	SVR (optuml) | full	-	23.9889	
+baseline	mean	-	full set	baseline (mean)	-	34.9387055226	
+baseline	median	-	full set	baseline (median)	-	36.750517	
