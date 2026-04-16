@@ -6,7 +6,9 @@ The data for manuscript *Prediction of Compounds Activity against Transthyretin 
 
 # Content of this repository
 
-- `0-descriptors/` sets of descriptors used for training, testing, and evaluation (`train_train`, `train_test`, and `test500`, respectively)
+- `0-descriptors/` sets of descriptors:
+  - initial experiments - training, testing, and evaluation (`train_train`, `train_test`, and `test500`, respectively)
+  - full set, used in cross-validation experiments (`ttr.csv.gz`)
 - `1-feature-importance/`  - results of the features importance analysis
 - `1-feature-importance/SHAP`  - .. SHAP analysis data
 - `2-decomposition/`  - data used for decomposition and the results of PCA and tSNE
