@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Datasets for: Prediction of Compounds Activity against Transthyretin Using Machine Learning Algorithms and Low-Dimensional Molecular Descriptors: A Tox24 Challenge Study
+type: dataset
+authors:
+  - orcid: "https://orcid.org/0000-0001-5758-9416"
+    given-names: Filip Stefaniak
+    affiliation: >-
+      International Institute of Molecular and Cell
+      Biology in Warsaw, Warsaw, Poland
+    email: fstefaniak@iimcb.gov.pl
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19612564
+    description: Zenodo repository
+abstract: >-
+  This study presents a comprehensive machine learning approach for predicting the percent displacement of ANSA from human Transthyretin (TTR) at fixed assay conditions as defined in the Tox24 Challenge. TTR is a critical serum transport protein for thyroid hormones, and its disruption by environmental chemicals can lead to endocrine system dysregulation with serious developmental and metabolic consequences. However, the scarcity of large, chemically diverse datasets and the lack of standardised experimental protocols have limited the computational prediction of TTR binding, restricting the development of robust predictive models applicable to broad chemical spaces. The described pipeline uses computationally efficient, low-dimensional (0D–2D) molecular descriptors and fingerprints. This eliminates the need for costly 3D conformational analysis. Following the systematic benchmarking of individual machine learning (ML) methods, hyperparameter optimization was performed using Optuna for two gradient boosting algorithms: CatBoost and XGBoost. The feature importance analysis revealed complementary learning strategies between these algorithms. The proposed consensus model achieved an RMSE of 21.60 on the blind test set, ranking 15th among 79 participating teams. Chemical space analysis using PCA and t-SNE confirmed that, except for two outliers, test compounds fell within the distribution for the training set. Post-challenge analyses evaluated the effect of cross-validation strategy (random vs. cluster-based split) and descriptor dimensionality (2D-only, 3D-only, or mixed) on model performance. To facilitate broader adoption, a freely accessible web server was developed, enabling rapid toxicity prediction across multiple Tox21 and Tox24 endpoints without requiring computational expertise (https://toxpred.genesilico.pl/). This work demonstrates that low-dimensional molecular descriptors combined with optimized consensus ML methods can achieve competitive predictive performance, making high-throughput toxicity screening practical for drug discovery, environmental risk assessment, and regulatory decision-making.
+keywords:
+  - tox24 challenge
+  - toxicity prediction
+  - machine learning
+  - feature selection
+  - hyperparameters optimization
+license: CC0-1.0

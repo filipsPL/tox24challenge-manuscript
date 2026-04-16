@@ -2,12 +2,14 @@
 
 The data for manuscript *Prediction of Compounds Activity against Transthyretin Using Machine Learning Algorithms and Low-Dimensional Molecular Descriptors: A Tox24 Challenge Study* describing approach used by the group **filipsPL** in [tox24 challenge](https://pubs.acs.org/doi/full/10.1021/acs.chemrestox.4c00192).
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19612564.svg)](https://doi.org/10.5281/zenodo.19612564) (this repository)
+
 ![performance of groups](obrazki/obrazek-README.png)
 
 # Content of this repository
 
 - `0-descriptors/` sets of descriptors:
-  - initial experiments - training, testing, and evaluation (`train_train`, `train_test`, and `test500`, respectively)
+  - initial experiments - training, testing, and evaluation (`train_train`, `train_test`, and `test500`, respectively) (obsolete)
   - full set, used in cross-validation experiments (`ttr.csv.gz`)
 - `1-feature-importance/`  - results of the features importance analysis
 - `1-feature-importance/SHAP`  - .. SHAP analysis data
