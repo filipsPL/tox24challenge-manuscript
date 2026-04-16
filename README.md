@@ -1,10 +1,10 @@
 # Data accompanying Tox24 Challenge manuscript
 
-The data for manuscript *Prediction of Compounds Activity against Transthyretin Using Machine Learning Algorithms and Low-Dimensional Molecular Descriptors: A Tox24 Challenge Study*
+The data for manuscript *Prediction of Compounds Activity against Transthyretin Using Machine Learning Algorithms and Low-Dimensional Molecular Descriptors: A Tox24 Challenge Study* describing approach used by the group **filipsPL** in [tox24 challenge](https://pubs.acs.org/doi/full/10.1021/acs.chemrestox.4c00192).
 
-![performance of the clustering methods](3-performance-cluster_basedCV/cv_clustering_comparison.png)
+![performance of groups](obrazki/obrazek-README.png)
 
-# Content
+# Content of this repository
 
 - `0-descriptors/` sets of descriptors used for training, testing, and evaluation (`train_train`, `train_test`, and `test500`, respectively)
 - `1-feature-importance/`  - results of the features importance analysis
@@ -14,5 +14,5 @@ The data for manuscript *Prediction of Compounds Activity against Transthyretin 
 - `3-performance-2Dvs3D/` - comparison of 2D, 3D and 2D+3D descriptors set - 5 fold cv
 - `3-performance-cluster_basedCV/` - comparison of cv method (random split vs cluster based)
 
-
+![performance of the clustering methods](3-performance-cluster_basedCV/cv_clustering_comparison.png)
 
