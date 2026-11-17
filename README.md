@@ -20,3 +20,5 @@ The data for manuscript *Prediction of Compounds Activity against Transthyretin 
 
 ![performance of the clustering methods](3-performance-cluster_basedCV/cv_clustering_comparison.png)
 
+> [!NOTE]
+> This research was funded in part by the National Science Centre, grant number: 2020/39/B/NZ2/03127 to FS.
